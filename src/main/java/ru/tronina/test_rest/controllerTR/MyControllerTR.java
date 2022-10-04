@@ -29,7 +29,7 @@ public class MyControllerTR {
                 .errorMessage("")
                 .build();
 
-        System.out.println("Пришел запрос 111");
+        System.out.println("Пришел запрос");
         return new ResponseEntity<>(responseRT, HttpStatus.OK);
     }
 
